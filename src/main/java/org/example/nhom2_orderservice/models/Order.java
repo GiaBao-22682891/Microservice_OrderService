@@ -23,6 +23,7 @@ public class Order {
     private long userId;
 
     @Column(name = "total_price")
+
     private double totalPrice;
 
     @Enumerated(EnumType.STRING)
